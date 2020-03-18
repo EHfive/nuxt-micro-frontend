@@ -34,7 +34,8 @@
     "husky": "latest",
     "jest": "latest",
     "nuxt-edge": "latest",
-    "standard-version": "latest"
+    "standard-version": "latest",
+    "wrapper-webpack-plugin": "^2.1.0"
   },
   "publishConfig": {
     "access": "public"
