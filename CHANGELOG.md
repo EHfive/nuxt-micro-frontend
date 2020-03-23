@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/EHfive/nuxt-micro-frontend-ilc/compare/v1.2.1...v1.2.2) (2020-03-23)
+
+
+### Bug Fixes
+
+* package.json ([e29d51a](https://github.com/EHfive/nuxt-micro-frontend-ilc/commit/e29d51a4a0f8157dc82942263e7d31a78b5044e8))
+
 ### [1.2.1](https://github.com/FEMessage/nuxt-micro-frontend/compare/v1.2.0...v1.2.1) (2020-03-23)
 
 
