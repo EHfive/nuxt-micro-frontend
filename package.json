@@ -2,7 +2,7 @@
   "name": "@eh5/nuxt-micro-frontend-ilc",
   "version": "1.2.1",
   "description": "Using front-end microservices with Nuxt",
-  "repository": "https://github.com/FEMessage/nuxt-micro-frontend",
+  "repository": "github:EHfive/nuxt-micro-frontend-ilc",
   "license": "MIT",
   "author": "Huang-Huang Bao <eh5@sokka.cn> ",
   "files": [
@@ -38,6 +38,7 @@
     "standard-version": "latest"
   },
   "publishConfig": {
+    "registry": "https://registry.npmjs.org",
     "access": "public"
   },
   "gren": "@femessage/grenrc"
