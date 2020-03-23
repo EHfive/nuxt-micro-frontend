@@ -17,25 +17,25 @@
     "release": "gren release --override"
   },
   "dependencies": {
-    "@nuxt/utils": "latest",
+    "@nuxt/utils": "^2.12.0",
     "lodash.isempty": "^4.4.0",
-    "uniqid": "^5.2.0"
+    "uniqid": "^5.2.0",
+    "wrapper-webpack-plugin": "^2.1.0"
   },
   "devDependencies": {
-    "@babel/core": "latest",
-    "@babel/preset-env": "latest",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
     "@femessage/github-release-notes": "^0.19.0",
     "@nuxtjs/eslint-config": "latest",
-    "@nuxtjs/module-test-utils": "latest",
-    "babel-eslint": "latest",
+    "@nuxtjs/module-test-utils": "^1.6.1",
+    "babel-eslint": "^10.1.0",
     "babel-jest": "latest",
     "codecov": "latest",
     "eslint": "latest",
     "husky": "latest",
     "jest": "latest",
-    "nuxt-edge": "latest",
-    "standard-version": "latest",
-    "wrapper-webpack-plugin": "^2.1.0"
+    "nuxt-edge": "^2.12.1-26415378.c8e7397d",
+    "standard-version": "latest"
   },
   "publishConfig": {
     "access": "public"
