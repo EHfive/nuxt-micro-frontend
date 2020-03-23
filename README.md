@@ -57,10 +57,10 @@ yarn add @eh5/nuxt-micro-frontend-ilc -D
 **hotPublicPath**: HMR publicPath (default '')
 
 ## Support Micro Front-End Framework
-- [x] [qiankun](https://github.com/umijs/qiankun)
+- [x] [ilc](https://github.com/namecheap/ilc)
 
 ## LifeCycle hooks file example
-[ilc](https://github.com/namecheap/ilc)
+[example/mfe.js](example/mfe.js)
 
 - add `mounted` and `beforeUnmount` hook to get vue instance
 
