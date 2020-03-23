@@ -1,10 +1,10 @@
 {
-  "name": "@femessage/nuxt-micro-frontend",
+  "name": "@eh5/nuxt-micro-frontend-ilc",
   "version": "1.1.0",
   "description": "Using front-end microservices with Nuxt",
   "repository": "https://github.com/FEMessage/nuxt-micro-frontend",
   "license": "MIT",
-  "author": "Han <xsytby1112@gmail.com>",
+  "author": "Huang-Huang Bao <eh5@sokka.cn> ",
   "files": [
     "lib"
   ],

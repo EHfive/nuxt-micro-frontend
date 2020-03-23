@@ -1,39 +1,44 @@
 # Nuxt-Micro-Frontend
 
-[![Build Status](https://badgen.net/travis/FEMessage/nuxt-micro-frontend/master)](https://travis-ci.com/FEMessage/nuxt-micro-frontend)
-[![NPM Download](https://badgen.net/npm/dm/@femessage/nuxt-micro-frontend)](https://www.npmjs.com/package/@femessage/nuxt-micro-frontend)
-[![NPM Version](https://badgen.net/npm/v/@femessage/nuxt-micro-frontend)](https://www.npmjs.com/package/@femessage/nuxt-micro-frontend)
-[![NPM License](https://badgen.net/npm/license/@femessage/nuxt-micro-frontend)](https://github.com/FEMessage/nuxt-micro-frontend/blob/master/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/FEMessage/nuxt-micro-frontend/pulls)
-[![Automated Release Notes by gren](https://img.shields.io/badge/%F0%9F%A4%96-release%20notes-00B2EE.svg)](https://github-tools.github.io/github-release-notes/)
-
-Using frontend microservices with Nuxt, support [qiankun](https://qiankun.umijs.org/) now
-
-[中文](./README-zh.md)
-
 [📖 **Release Notes**](./CHANGELOG.md)
 
 ## Setup
 
-1. Add `@femessage/nuxt-micro-frontend` dependency to your project
+1. Add `@eh5/nuxt-micro-frontend-ilc` dependency to your project
 
 ```bash
-yarn add @femessage/nuxt-micro-frontend -D 
+yarn add @eh5/nuxt-micro-frontend-ilc -D 
 
-# or npm install @femessage/nuxt-micro-frontend
+# or npm install @eh5/nuxt-micro-frontend-ilc
 ```
 
-2. Add `@femessage/nuxt-micro-frontend` to the `modules` section of `nuxt.config.js`
+2. Add `@eh5/nuxt-micro-frontend-ilc` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    '@femessage/nuxt-micro-frontend',
+    '@eh5/nuxt-micro-frontend-ilc',
 
     // With options
-    ['@femessage/nuxt-micro-frontend', { /* module options */ }]
+    ['@eh5/nuxt-micro-frontend-ilc', { /* module options */ }]
   ]
+}
+```
+
+3. enable `extractCSS` if you have css files defined in config
+
+```js
+{
+  // ...
+  css: [
+    'element-ui/lib/theme-chalk/index.css'
+    // ...
+  ],
+  build: {
+    extractCSS: true
+  }
+  // ...
 }
 ```
 
@@ -47,12 +52,15 @@ yarn add @femessage/nuxt-micro-frontend -D
 
 **unique**: If use qiankun, sub application's package name should unique. Set unique to true can create a unique umd target.
 
+**publicPath**: publicPath (default '/__nuxt/')
+
+**hotPublicPath**: HMR publicPath (default '')
+
 ## Support Micro Front-End Framework
 - [x] [qiankun](https://github.com/umijs/qiankun)
-- [ ] [single-SPA](https://github.com/single-spa/single-spa) waiting for test and verify
 
 ## LifeCycle hooks file example
-[Qiankun](https://github.com/lianghx-319/micro-nuxt/blob/master/example/mfe.js)
+[ilc](https://github.com/namecheap/ilc)
 
 - add `mounted` and `beforeUnmount` hook to get vue instance
 
@@ -65,5 +73,3 @@ yarn add @femessage/nuxt-micro-frontend -D
 ## License
 
 [MIT License](./LICENSE)
-
-Copyright (c) FEMessage
