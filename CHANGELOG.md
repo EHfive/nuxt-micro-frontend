@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.4](https://github.com/EHfive/nuxt-micro-frontend-ilc/compare/v1.2.2...v1.2.4) (2020-04-14)
+
+
+### Bug Fixes
+
+* camelCase name ([27dc005](https://github.com/EHfive/nuxt-micro-frontend-ilc/commit/27dc00578cb76a059828063136ccab6ffe68214f))
+* remove mount point before creating new one ([ff8c52e](https://github.com/EHfive/nuxt-micro-frontend-ilc/commit/ff8c52ee37f6d68a59e682b89c5745983e61e2ce))
+
 ### [1.2.2](https://github.com/EHfive/nuxt-micro-frontend-ilc/compare/v1.2.1...v1.2.2) (2020-03-23)
 
 
