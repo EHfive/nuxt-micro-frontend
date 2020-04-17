@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/EHfive/nuxt-micro-frontend-ilc/compare/v1.2.4...v1.2.5) (2020-04-17)
+
+
+### Bug Fixes
+
+* ssr issues ([2b15386](https://github.com/EHfive/nuxt-micro-frontend-ilc/commit/2b15386b37014610e1b47b42fe27a373cc4dc15c))
+
 ### [1.2.4](https://github.com/EHfive/nuxt-micro-frontend-ilc/compare/v1.2.2...v1.2.4) (2020-04-14)
 
 
